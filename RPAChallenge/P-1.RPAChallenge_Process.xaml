@@ -122,7 +122,7 @@
       <x:Boolean x:Key="ShouldCollapseAll">True</x:Boolean>
     </scg:Dictionary>
   </sap:WorkflowViewStateService.ViewState>
-  <Sequence sap2010:Annotation.AnnotationText="This sequence represents the core logic of the invoice extraction process. It handles data retrieval, processing, and storage, ensuring that all relevant information is captured accurately and efficiently." DisplayName="P_1_RPAChallenge_Process" sap:VirtualizedContainerService.HintSize="1040,3084" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap2010:Annotation.AnnotationText="This sequence represents the core logic of the invoice extraction process. It handles data retrieval, processing, and storage, ensuring that all relevant information is captured accurately and efficiently." DisplayName="P_1_RPAChallenge_Process" sap:VirtualizedContainerService.HintSize="1040,3038" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -137,13 +137,13 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:LogMessage>
-    <uix:NApplicationCard sap2010:Annotation.AnnotationText="Opens and interacts with the invoice processing platform." AttachMode="ByInstance" CloseMode="Always" DisplayName="Extract Invoice information - RPA Challenge Invoice Extraction" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="1040,2910.6666666666665" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" OpenMode="Always" ScopeGuid="298985c4-a7c0-4669-9222-fd05407963ce" Version="V2">
+    <uix:NApplicationCard sap2010:Annotation.AnnotationText="Opens and interacts with the invoice processing platform." AttachMode="ByInstance" CloseMode="Always" DisplayName="Extract Invoice information - RPA Challenge Invoice Extraction" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="1040,2864.6666666666665" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" OpenMode="Always" ScopeGuid="298985c4-a7c0-4669-9222-fd05407963ce" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1006,2588.6666666666665" sap2010:WorkflowViewState.IdRef="Sequence_2">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1006,2582.6666666666665" sap2010:WorkflowViewState.IdRef="Sequence_2">
             <Sequence.Variables>
               <Variable x:TypeArguments="x:Object" Name="outputElement_1" />
               <Variable x:TypeArguments="x:Object" Name="CompanyName" />
@@ -200,9 +200,9 @@
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
             </uix:NKeyboardShortcuts>
-            <uix:NCheckState sap2010:Annotation.AnnotationText="Verifies the state of the UI element to determine the next action." DisplayName="Verify Displayed Invoice Type" sap:VirtualizedContainerService.HintSize="972,2287.3333333333335" sap2010:WorkflowViewState.IdRef="NCheckState_1" OutUiElement="[outputElement_1]" ScopeIdentifier="298985c4-a7c0-4669-9222-fd05407963ce" Version="V4">
+            <uix:NCheckState sap2010:Annotation.AnnotationText="Verifies the state of the UI element to determine the next action." DisplayName="Verify Displayed Invoice Type" sap:VirtualizedContainerService.HintSize="972,2281.3333333333335" sap2010:WorkflowViewState.IdRef="NCheckState_1" OutUiElement="[outputElement_1]" ScopeIdentifier="298985c4-a7c0-4669-9222-fd05407963ce" Version="V4">
               <uix:NCheckState.IfExists>
-                <Sequence sap2010:Annotation.AnnotationText="" DisplayName="Aenean LLC Invoice Displayed" sap:VirtualizedContainerService.HintSize="468,1970" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                <Sequence sap2010:Annotation.AnnotationText="" DisplayName="Aenean LLC Invoice Displayed" sap:VirtualizedContainerService.HintSize="468,2004" sap2010:WorkflowViewState.IdRef="Sequence_3">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -238,7 +238,7 @@
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
                   </Assign>
-                  <ui:GetOCRText WordsInfo="{x:Null}" sap2010:Annotation.AnnotationText="Uses OCR to capture the invoice number from the document for data processing." DisplayName="Extarct Aenean LLC Invoice Number " sap:VirtualizedContainerService.HintSize="434,290" sap2010:WorkflowViewState.IdRef="GetOCRText_11">
+                  <ui:GetOCRText WordsInfo="{x:Null}" sap2010:Annotation.AnnotationText="Uses OCR to capture the invoice number from the document for data processing." DisplayName="Extarct Aenean LLC Invoice Number " sap:VirtualizedContainerService.HintSize="434,250" sap2010:WorkflowViewState.IdRef="GetOCRText_11">
                     <ui:GetOCRText.OCREngine>
                       <ActivityFunc x:TypeArguments="sd1:Image, scg:IEnumerable(scg:KeyValuePair(sd2:Rectangle, x:String))">
                         <ActivityFunc.Argument>
@@ -285,7 +285,7 @@
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
                   </Assign>
-                  <ui:GetOCRText WordsInfo="{x:Null}" sap2010:Annotation.AnnotationText="Uses OCR to capture the invoice date from the document for data processing." DisplayName="Extarct Aenean LLC Invoice Date" sap:VirtualizedContainerService.HintSize="434,290" sap2010:WorkflowViewState.IdRef="GetOCRText_12">
+                  <ui:GetOCRText WordsInfo="{x:Null}" sap2010:Annotation.AnnotationText="Uses OCR to capture the invoice date from the document for data processing." DisplayName="Extarct Aenean LLC Invoice Date" sap:VirtualizedContainerService.HintSize="434,250" sap2010:WorkflowViewState.IdRef="GetOCRText_12">
                     <ui:GetOCRText.OCREngine>
                       <ActivityFunc x:TypeArguments="sd1:Image, scg:IEnumerable(scg:KeyValuePair(sd2:Rectangle, x:String))">
                         <ActivityFunc.Argument>
@@ -332,7 +332,7 @@
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
                   </Assign>
-                  <ui:GetOCRText WordsInfo="{x:Null}" sap2010:Annotation.AnnotationText="Uses OCR to capture the invoice company name from the document for data processing." DisplayName="Extarct Aenean LLC Invoice CompanyName " sap:VirtualizedContainerService.HintSize="434,290" sap2010:WorkflowViewState.IdRef="GetOCRText_2">
+                  <ui:GetOCRText WordsInfo="{x:Null}" sap2010:Annotation.AnnotationText="Uses OCR to capture the invoice company name from the document for data processing." DisplayName="Extarct Aenean LLC Invoice CompanyName " sap:VirtualizedContainerService.HintSize="434,250" sap2010:WorkflowViewState.IdRef="GetOCRText_2">
                     <ui:GetOCRText.OCREngine>
                       <ActivityFunc x:TypeArguments="sd1:Image, scg:IEnumerable(scg:KeyValuePair(sd2:Rectangle, x:String))">
                         <ActivityFunc.Argument>
@@ -384,7 +384,7 @@
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
                   </uix:NKeyboardShortcuts>
-                  <ui:GetOCRText WordsInfo="{x:Null}" sap2010:Annotation.AnnotationText="Uses OCR to capture the invoice total due from the document for data processing." DisplayName="Extarct Aenean LLC Invoice TotalDue " sap:VirtualizedContainerService.HintSize="434,136" sap2010:WorkflowViewState.IdRef="GetOCRText_13">
+                  <ui:GetOCRText WordsInfo="{x:Null}" sap2010:Annotation.AnnotationText="Uses OCR to capture the invoice total due from the document for data processing." DisplayName="Extarct Aenean LLC Invoice TotalDue " sap:VirtualizedContainerService.HintSize="434,290" sap2010:WorkflowViewState.IdRef="GetOCRText_13">
                     <ui:GetOCRText.OCREngine>
                       <ActivityFunc x:TypeArguments="sd1:Image, scg:IEnumerable(scg:KeyValuePair(sd2:Rectangle, x:String))">
                         <ActivityFunc.Argument>
@@ -394,9 +394,9 @@
                       </ActivityFunc>
                     </ui:GetOCRText.OCREngine>
                     <ui:GetOCRText.Target>
-                      <ui:Target Element="{x:Null}" Id="57c96796-5846-4450-ac25-fab21d5a0363" InformativeScreenshot="4127a2f0ea6fe1b80a76ad4740f0ac86" Selector="&lt;webctrl tag='IMG' /&gt;">
+                      <ui:Target Element="{x:Null}" Id="57c96796-5846-4450-ac25-fab21d5a0363" InformativeScreenshot="a319b512d2db6c90e1ff8a893e2cf5f0" Selector="&lt;webctrl tag='IMG' /&gt;">
                         <ui:Target.ClippingRegion>
-                          <ui:Region Rectangle="639, 664, 61, 27" />
+                          <ui:Region Rectangle="638, 667, 62, 21" />
                         </ui:Target.ClippingRegion>
                         <ui:Target.TimeoutMS>
                           <InArgument x:TypeArguments="x:Int32" />
@@ -412,12 +412,12 @@
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        <x:Boolean x:Key="IsPinned">True</x:Boolean>
                         <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
                   </ui:GetOCRText>
-                  <uix:NKeyboardShortcuts ActivateBefore="True" sap2010:Annotation.AnnotationText="Uses keyboard shortcuts to return the invoice to its original size for a clearer view of the full document." ClickBeforeMode="None" DisplayName="Reset Aenean LLC Invoice Zoom" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,136" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_7" ScopeIdentifier="298985c4-a7c0-4669-9222-fd05407963ce" Shortcuts="[d(hk)][d(ctrl)]-[u(ctrl)][u(hk)]" Version="V4">
+                  <uix:NKeyboardShortcuts ActivateBefore="True" sap2010:Annotation.AnnotationText="Uses keyboard shortcuts to return the invoice to its original size for a clearer view of the full document." ClickBeforeMode="None" DisplayName="Reset Aenean LLC Invoice Zoom" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="434,136" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_7" ScopeIdentifier="298985c4-a7c0-4669-9222-fd05407963ce" Shortcuts="[d(hk)][d(ctrl)]-[u(ctrl)][u(hk)]" Version="V4">
                     <uix:NKeyboardShortcuts.VerifyOptions>
                       <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
                         <uix:VerifyExecutionOptions.Retry>
@@ -436,7 +436,7 @@
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
                   </uix:NKeyboardShortcuts>
-                  <ui:AddDataRow DataRow="{x:Null}" sap2010:Annotation.AnnotationText=" Adds the extracted invoice details as a new row in the DataTable for further processing and storage." ArrayRow="[{ID, DueDate, InvoiceNo, InvoiceDate, CompanyName, TotalDue}]" DataTable="[dt_InvoicesResult]" DisplayName="Add Aenean LLC Invoice Data Row" sap:VirtualizedContainerService.HintSize="416,129.33333333333334" sap2010:WorkflowViewState.IdRef="AddDataRow_1">
+                  <ui:AddDataRow DataRow="{x:Null}" sap2010:Annotation.AnnotationText=" Adds the extracted invoice details as a new row in the DataTable for further processing and storage." ArrayRow="[{ID, DueDate, InvoiceNo, InvoiceDate, CompanyName, TotalDue}]" DataTable="[dt_InvoicesResult]" DisplayName="Add Aenean LLC Invoice Data Row" sap:VirtualizedContainerService.HintSize="434,129.33333333333334" sap2010:WorkflowViewState.IdRef="AddDataRow_1">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">False</x:Boolean>
