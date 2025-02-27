@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="rwF-5jQRGEud5mJptJO-ww" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="rpachallengeocr.azurewebsites.net" DesignTimeRectangle="735, 252, 472, 668" DesignTimeScaleFactor="1.125" ElementType="Icon" FuzzySelectorArgument="&lt;webctrl tag='IMG' type='' class='' aaname='' /&gt;" Guid="92cdbde6-213a-4aa5-86a7-f4e5cd8c2fad" ScopeSelectorArgument="&lt;html app='chrome.exe' title='10.jpg (793×1122)' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="043d498d0c0ec514966d4d889a790fcb.png" xmlns="">0S65ZbshCHEeTbdUSVYkc9g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

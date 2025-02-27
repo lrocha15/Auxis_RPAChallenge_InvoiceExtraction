@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Chrome Automation Challenge - OCR",
+  "Type": "App",
+  "Id": "1hOTPJDEREWDtuBerGwNHA",
+  "Reference": "DBhdAtmPDkC8_m2hidmQUg/1hOTPJDEREWDtuBerGwNHA",
+  "Created": "2025-02-21T19:10:30.4357429Z",
+  "Updated": "2025-02-21T19:10:30.4357429Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.5.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

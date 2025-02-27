@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="qhdcOoJa5EibwxcNv9BkCw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="rpachallengeocr.azurewebsites.net" CVScreenId="694a265a-1801-4b55-afd1-d1cdbdd7786f" CvElementArea="930, 838, 688, 107" CvTextArea="1221, 878, 106, 27" CvTextArgument="SUBMIT" CvType="Button" DesignTimeRectangle="935, 842, 680, 100" DesignTimeScaleFactor="1.350000023841858" ElementType="InputBox" FullSelectorArgument="&lt;webctrl tag='INPUT' parentid='submit' idx='1' /&gt;" Guid="d3489a09-365b-473d-a501-9268ed25c19b" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Automation Challenge - OCR' /&gt;" SearchSteps="Selector, CV" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="7351370540e0cab2af2983a798a073e7.png" xmlns="">00g5z6knfrEabE8qFnlf2zQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

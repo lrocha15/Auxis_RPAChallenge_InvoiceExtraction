@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Test invoice challenge",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "NZwOT10D_EOo9kjGCnGv3Q",
+  "Reference": "DBhdAtmPDkC8_m2hidmQUg/NZwOT10D_EOo9kjGCnGv3Q",
+  "ParentRef": "DBhdAtmPDkC8_m2hidmQUg/-9myvyH4bUKcFj9Y5B-6Lw",
+  "Created": "2025-02-25T01:54:27.067876Z",
+  "Updated": "2025-02-25T01:54:27.067876Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.5.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

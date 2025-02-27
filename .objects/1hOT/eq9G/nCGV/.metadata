@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome Automation Challenge - OCR",
+  "Type": "Screen",
+  "Id": "nCGVDzcYUEqdXI7OydMxWg",
+  "Reference": "DBhdAtmPDkC8_m2hidmQUg/nCGVDzcYUEqdXI7OydMxWg",
+  "ParentRef": "DBhdAtmPDkC8_m2hidmQUg/eq9GnhaD10SF-OyuvFPp3A",
+  "Created": "2025-02-21T19:10:30.4628615Z",
+  "Updated": "2025-02-21T19:10:30.4628615Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.12.5.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
